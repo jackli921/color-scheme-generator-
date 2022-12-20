@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="HTML, CSS, JavaScript color scheme genreator">
         <meta name="description" content="a color generator app that display five colors based on user choice of seed color">
         <meta name="author" content="Run Qi (Jack) Li">
-
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <title>Color Scheme Generator</title>
     </head>
 
     <body>
         <div class="input-container">
-        
             <input type="color" class="colorwheel" id="colorwheel">
-            
             <select name="colors" id="dropdown-menu" class="dropdown-menu">
                 <option value="monochrome">Monochrome</option> 
                 <option value="monochrome-light">Monochrome-Light</option> 
@@ -30,7 +27,6 @@
             <button class="primary-btn" id="get-color-btn">Get Color Scheme</button> 
            
         </div>
-
         <div class="grid-container">
             <div class="block block-1" id="block-1"></div>
             <div class="block block-2" id="block-2"></div>
@@ -45,7 +41,7 @@
             <div class="hex hex-5" id="hex-5"></div>
         </div>
         
-        <script src="index.js"></script>
+        <script src="index.js" type="module"></script>
     </body>
 
 </html>

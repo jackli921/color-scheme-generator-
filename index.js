@@ -24,7 +24,6 @@ function fetchColorScheme(colorwheelValue, dropdownMenuValue){
         .then(data=>displayFetchedColorScheme(data))
 }
 
-
 function displayFetchedColorScheme(data){
     block1.style.backgroundColor = data.colors[0].hex.value
     block1.innerText = data.colors[0].hex.value
