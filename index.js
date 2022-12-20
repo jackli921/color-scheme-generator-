@@ -19,7 +19,6 @@ document.getElementById('get-color-btn').addEventListener('click',()=>{
 })
 
 function fetchColorScheme(colorwheelValue, dropdownMenuValue){
-
     fetch(`https://www.thecolorapi.com/scheme?hex=${colorwheelValue}&mode=${dropdownMenuValue}`)
         .then(res=>res.json())
         .then(data=>displayFetchedColorScheme(data))
