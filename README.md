@@ -11,7 +11,7 @@ A training project built to consolidate key concepts I learned from:
 -  Copy selected color hex value to clipboard on click
 
 ## Demo
- [](demo.gif)
+ ![https://gilded-cheesecake-3b8383.netlify.app/](demo.gif)
 
 
 
