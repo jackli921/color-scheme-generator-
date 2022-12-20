@@ -6,10 +6,11 @@ html, body {
     height:550px;
     width:550px;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 .input-container{
-    margin:auto;
+    margin:3em auto;
     height: 90px;
     display:flex;
     justify-content: center;
